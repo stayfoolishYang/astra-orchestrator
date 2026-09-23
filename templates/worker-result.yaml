@@ -1,0 +1,28 @@
+task_id: ""
+status: COMPLETED | PARTIAL | BLOCKED | FAILED
+summary: ""
+outputs: []
+changed_files: []
+evidence: []
+validation:
+  executed: []
+  not_executed: []
+unresolved: []
+risks: []
+suggested_next_action: ""
+
+runtime_record:
+  requested:
+    model: ""
+    reasoning: ""
+  resolved:
+    model: ""
+    reasoning: ""
+  submitted:
+    native_task_name: ""
+    model: ""
+    reasoning: ""
+  actual:
+    thread_id: ""
+    model: UNKNOWN
+    reasoning: UNKNOWN

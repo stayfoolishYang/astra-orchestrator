@@ -1,0 +1,6 @@
+interface:
+  display_name: "Astra Orchestrator"
+  short_description: "Astra 按难度拆分任务，使用 Sol 6 与 Luna 6，并独立审计"
+  default_prompt: "Use $astra-orchestrator to split this task by difficulty and dependencies, delegate to native GPT-6 Sol, Terra, or GPT-6 Luna workers, integrate the results, and create a fresh GPT-6 Sol High subagent for independent audit before final acceptance."
+policy:
+  allow_implicit_invocation: false

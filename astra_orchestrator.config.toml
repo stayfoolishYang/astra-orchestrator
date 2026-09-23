@@ -1,0 +1,4 @@
+# Astra Orchestrator CLI profile. Loaded with: codex -p astra_orchestrator
+# This profile affects new CLI sessions only; it does not control Codex Desktop.
+model = "gpt-6-astra"
+model_reasoning_effort = "medium"

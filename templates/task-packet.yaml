@@ -1,0 +1,33 @@
+task_id: ""
+goal: ""
+role: sol | terra | luna | audit
+difficulty: low | medium | high
+risk: low | medium | high
+resolved_model: ""
+resolved_reasoning: ""
+selection_reason: ""
+inputs: []
+input_version: ""
+depends_on: []
+mode: read_only | write
+owned_paths: []
+forbidden_paths: []
+constraints: []
+acceptance_criteria: []
+expected_outputs: []
+
+runtime_record:
+  requested:
+    model: ""
+    reasoning: ""
+  resolved:
+    model: ""
+    reasoning: ""
+  submitted:
+    native_task_name: ""
+    model: ""
+    reasoning: ""
+  actual:
+    thread_id: ""
+    model: UNKNOWN
+    reasoning: UNKNOWN

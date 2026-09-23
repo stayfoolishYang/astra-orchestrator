@@ -1,0 +1,43 @@
+schema_version: 1
+
+root:
+  model: gpt-6-astra
+  reasoning: medium
+
+workers:
+  sol:
+    model: gpt-6-sol
+    reasoning: medium
+    enabled: true
+  terra:
+    model: gpt-5.6-terra
+    reasoning: medium
+    enabled: true
+  luna:
+    model: gpt-6-luna
+    reasoning: medium
+    enabled: true
+
+routing:
+  mode: auto
+  decompose_by: difficulty_and_dependencies
+
+audit:
+  enabled: true
+  model: gpt-6-sol
+  reasoning: high
+  fresh_agent: true
+  mode: read_only
+
+reasoning:
+  mode: fixed
+
+delegation:
+  enabled: true
+  max_worker_depth: 1
+  max_parallel_workers: 3
+  best_of_n: false
+  max_reassignments_per_task: 1
+
+fallback:
+  automatic_model_fallback: false
